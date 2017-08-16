@@ -1,0 +1,23 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'cache', 'clean' ]
+2 info using npm@5.3.0
+3 info using node@v6.11.2
+4 verbose npm-session f67139c4f6c70b90
+5 verbose stack Error: As of npm@5, the npm cache self-heals from corruption issues and data extracted from the cache is guaranteed to be valid. If you want to make sure everything is consistent, use 'npm cache verify' instead.
+5 verbose stack
+5 verbose stack If you're sure you want to delete the entire cache, rerun this command with --force.
+5 verbose stack     at clean (/usr/local/lib/node_modules/npm/lib/cache.js:70:22)
+5 verbose stack     at EventEmitter.cache (/usr/local/lib/node_modules/npm/lib/cache.js:45:16)
+5 verbose stack     at Object.commandCache.(anonymous function) (/usr/local/lib/node_modules/npm/lib/npm.js:150:13)
+5 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/bin/npm-cli.js:84:30)
+5 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:73:7)
+5 verbose stack     at process._tickCallback (internal/process/next_tick.js:104:9)
+6 verbose cwd /Users/ariannaharadon/node-js-apprenticeship
+7 verbose Darwin 16.7.0
+8 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "cache" "clean"
+9 verbose node v6.11.2
+10 verbose npm  v5.3.0
+11 error As of npm@5, the npm cache self-heals from corruption issues and data extracted from the cache is guaranteed to be valid. If you want to make sure everything is consistent, use 'npm cache verify' instead.
+11 error
+11 error If you're sure you want to delete the entire cache, rerun this command with --force.
+12 verbose exit [ 1, true ]

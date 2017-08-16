@@ -1,0 +1,11 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "pure-syntax"
+    ]
+  "exception-reporting":
+    userId: "1d6e6abc-b3ba-498b-9c52-6183c866a83e"
+  "linter-ui-default":
+    showPanel: true

@@ -1,0 +1,92 @@
+.exit
+Array.from(a)
+a = 'hello'
+.exit
+a.includes('f')
+a.includes('d')
+a = 'hello world'
+.exit
+a.includes('2')
+a = [1, 2]
+.exit
+a.includes(['a', 'b'])
+a.includes('b')
+a.includes('a')
+a = [['a', 'b'], ['c', 'd']]
+.exit
+the.includes(['a', 'h'])
+the.includes(['a', 'h')
+the.includes('h')
+the.includes['h']
+the = ['a', 'h']
+a.includes(b);
+a == b
+a === b
+b = ['a', 'b']
+a = ['a', 'b']
+a = b
+a = ['a', 'b']
+a = b
+b = ['a', 'b']
+a = ['a', 'b']
+.exit
+d = b || 'string';
+e = b && 'string';
+d = a || 'string';
+c = a && 'string';
+b = false;
+a = true;
+.exit
+a = true;
+const e = a || "string";
+console.log(c);
+const c = a && "string";
+const b = false;
+const a = true;
+.exit
+const a = true;
+const a = true
+.exit
+q
+Object.is('a', ['a']);
+Object.is('a', 'b');
+Object.is('a', 'a');
+Object.is(a, 'a');
+.exit
+''.length
+[].length
+.exit
+exit
+"".length
+[].length
+.exit
+a
+dog = a;
+dog = 5;
+var dog = a;
+var = a;
+a = 5; 
+a = 5;
+.exit
+var a = [true,'a' , undefined]; a.includes(undefined);
+var a = [true,'a' , 1]; a.includes(1);
+var a = [true,'a' , 1]; a.includes(true);
+var a = [true,'a' , 1]; a.includes('a');
+var a = [true,'a' , 1]; a.includes(false);
+var a = [true, , 1]; a.includes(false);
+var a = [true, true, true]; a.includes(false);
+var a = [true, true, true]; a.includes(true);
+var a = [1, 2,3]; a.includes('3');
+.exit
+var a = [[1, 2] ,[3, 4]]; a[1].includes([3, 4]);
+var a = [[1, 2] ,[3, 4]]; a.includes([3, 4]);
+var a = [[1, 2] ,[3, 4]]; a.includes([1, 2]);
+var a = [[1, 2] ,[3, 4]]; a.includes([1,2]);
+var a = [[1, 2] ,[3, 4]]; a.includes(1);
+var a = [[1, 2] ,[3, 4]]; a.includes(5);
+var a = [[1, 2] ,[3, 4]]; a.includes(4);
+var a = [1, 2,3]; a.includes(4);
+var a = [1, 2,3]; a.includes(2);
+var a = [1, 2,3]; 
+var a = [1, 2,3];
+[1, 2, 3].prototype.includes(1);

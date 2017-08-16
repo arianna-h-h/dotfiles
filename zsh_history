@@ -1,0 +1,399 @@
+: 1502463682:0;ls -la
+: 1502463714:0;git log
+: 1502463744:0;rm -r .git
+: 1502463783:0;rm -rf .git
+: 1502463835:0;cd node*
+: 1502463862:0;git status
+: 1502463898:0;l
+: 1502464076:0;cd ..\\
+
+: 1502464085:0;cc ..\\
+
+: 1502464094:0;l
+: 1502464102:0;cd dotfiles
+: 1502464104:0;l
+: 1502464113:0;cat makesymlinks.sh
+: 1502464224:0;cat ssh
+: 1502464249:0;l
+: 1502464262:0;~ l
+: 1502464268:0;l~ 
+: 1502464271:0;l ~ 
+: 1502464297:0;cd dotfiles
+: 1502464309:0;l
+: 1502464335:0;cdmod +x makesymlinks.sh
+: 1502464342:0;chmod +x makesymlinks.sh
+: 1502464346:0;l
+: 1502464377:0;./makesymlinks.sh
+: 1502464439:0;cat makesymlinks.sh
+: 1502464588:0;cd node*
+: 1502464596:0;cd ../
+: 1502464600:0;cd node*
+: 1502464617:0;l
+: 1502464639:0;git push -f origin exercise2
+: 1502464767:0;git reset HEAD~1
+: 1502464771:0;git status
+: 1502464784:0;git stash
+: 1502464846:0;git log
+: 1502464955:0;git rebase -i 717dd873a0bc93c46c6d86a06524de42fabfdfa3
+: 1502464977:0;git log
+: 1502464994:0;git push
+: 1502465023:0;git push -f
+: 1502465133:0;git stash ls
+: 1502465137:0;git stash list
+: 1502465149:0;git stash pop
+: 1502465159:0;git status
+: 1502465204:0;git log exercise3
+: 1502465243:0;git log exercise1
+: 1502465273:0;git branch -d exercise3
+: 1502465278:0;git branch -D exercise3
+: 1502465290:0;checkout master
+: 1502465295:0;git checkout master
+: 1502465305:0;git log
+: 1502465343:0;git reset --hard origin/master
+: 1502465346:0;git log
+: 1502465378:0;git checkout -b exercise3
+: 1502465395:0;git add ./src/exercise3.js
+: 1502465405:0;git add ./test/exercise3.test.js
+: 1502465408:0;git status
+: 1502465434:0;git commit -m "Add exercise3" 
+: 1502465472:0;git push -u origin head
+: 1502465493:0;git push -f origin head
+: 1502465525:0;git checkout master
+: 1502466527:0;git checkout exercise4 
+: 1502466547:0;git stash src/exercise4.js
+: 1502466562:0;git stash exercise4.js
+: 1502466568:0;git stash save exercise4.js
+: 1502466580:0;git stash save src exercise4.js
+: 1502466584:0;git stash save src/exercise4.js
+: 1502466670:0;git stash 
+: 1502466720:0;git checkout exercise4 
+: 1502466763:0;git stash --include-untracked
+: 1502466769:0;git checkout exercise4 
+: 1502466777:0;git log
+: 1502466821:0;git rebase -i a20683a5421f180530af88164802c07c71eaad1c
+: 1502466864:0;git log
+: 1502466884:0;git rebase -i eb9f85bbecffef0672a1b7bd2910dd9d87da9630
+: 1502466901:0;git log
+: 1502466919:0;git commit -m "Fixed git tree, remove other exercises"
+: 1502466935:0;git add .
+: 1502466938:0;git commit -m "Fixed git tree, remove other exercises"
+: 1502466944:0;git push origin head
+: 1502466951:0;git push -f origin head
+: 1502467566:0;git stash list
+: 1502467770:0;git log
+: 1502467820:0;git stash pop
+: 1502467845:0;git checkout master
+: 1502467851:0;git checkout exercise5
+: 1502467884:0;git log
+: 1502468800:0;git  reflog
+: 1502469334:0;node 
+: 1502471785:0;git rebase -i eb9f85bbecffef0672a1b7bd2910dd9d87da9630
+: 1502471830:0;git push
+: 1502471836:0;git push -f
+: 1502472278:0;git checkout exercise1
+: 1502474434:0;npm test exercise1.test.js
+: 1502474682:0;node
+: 1502475823:0;npm test exercise1.test.js
+: 1502484127:0;node
+: 1502484201:0;npm test exercise1.test.js
+: 1502484993:0;git status
+: 1502485040:0;git add .
+: 1502485075:0;git commit -m 'refactor reduce function, update test description, accounted for noargs and empty array tests'
+: 1502485085:0;git push
+: 1502485139:0;git checkout master
+: 1502485151:0;git checkout exercise5
+: 1502485156:0;git status
+: 1502485158:0;git log
+: 1502485235:0;git rebase -i c6752469df07cfbeb93d7e49e7f9d6aa190a9a0a
+: 1502485264:0;git log
+: 1502485272:0;git push
+: 1502485279:0;git push -f
+: 1502485427:0;git checkout master
+: 1502485434:0;git checkout exercise2
+: 1502485627:0;npm test exercise2
+: 1502485761:0;git commit -m 'fix no-mixed-operator linter error & update test descriptions'
+: 1502485766:0;git add .
+: 1502485782:0;git commit -m 'fix no-mixed-operator linter error & update test descriptions'
+: 1502485785:0;git push
+: 1502485827:0;git checkout master
+: 1502485832:0;git checkout exercise3
+: 1502485976:0;npm test exercise3
+: 1502719864:0;git checkout exercise1
+: 1502719874:0;git add .
+: 1502719887:0;git commit -m "refactor to reduce"
+: 1502719891:0;git checkout exercise1
+: 1502719964:0;git merge --squash
+: 1502720004:0;git rebase -i
+: 1502720078:0;git rebase -i exercise1
+: 1502720138:0;git checkout master
+: 1502720150:0;git checkout exercise1
+: 1502720152:0;git log
+: 1502720171:0;git rebase -i eb9f85bbecffef0672a1b7bd2910dd9d87da9630
+: 1502720284:0;git rebase --abort
+: 1502720288:0;git rebase -i eb9f85bbecffef0672a1b7bd2910dd9d87da9630
+: 1502720417:0;git add .
+: 1502720423:0;git push
+: 1502720432:0;git push -f
+: 1502723670:0;checkout exercise2
+: 1502723676:0;git checkout exercise2
+: 1502723767:0;git checkout exercise3
+: 1502724490:0;npm test exercise3.test.js
+: 1502726078:0;node
+: 1502726204:0;npm test exercise3.test.js
+: 1502728729:0;git add .
+: 1502728744:0;git commit -m "Exercise 3: tests pass with for-loop"
+: 1502728747:0;git push
+: 1502728758:0;git push -u origin exercise3
+: 1502729217:0;npm test exercise3.test.js
+: 1502730680:0;node
+: 1502731979:0;npm test exercise3.test.js
+: 1502732558:0;git add .
+: 1502732570:0;git commit -m "Refactor to reduce, make one line"
+: 1502732574:0;git push
+: 1502737299:0;npm test exercise3.test.js
+: 1502738180:0;git add .
+: 1502738218:0;git commit -m "Refactor function to one line & edit test messages"
+: 1502738221:0;git push
+: 1502738302:0;git add .
+: 1502738321:0;git commit -m "Fix indentation that threw linter error"
+: 1502738323:0;git push
+: 1502738394:0;git rebase -i eb9f85bbecffef0672a1b7bd2910dd9d87da9630
+: 1502738478:0;git add .
+: 1502738485:0;git push
+: 1502738500:0;git push -f
+: 1502738596:0;git checkout master
+: 1502738601:0;git checkout exercise2
+: 1502739750:0;npm test exercise2
+: 1502744341:0;git add .
+: 1502744350:0;git commit -m "Refactor tests"
+: 1502744353:0;git push
+: 1502746530:0;npm test exercise3.test.js
+: 1502746546:0;npm test exercise2.test.js
+: 1502746853:0;git add .
+: 1502746856:0;git push
+: 1502746884:0;git commit -m 'refactor test'
+: 1502746886:0;git push
+: 1502746937:0;git rebase -i eb9f85bbecffef0672a1b7bd2910dd9d87da9630
+: 1502746986:0;git push
+: 1502746989:0;git push -f
+: 1502747752:0;git checkout master
+: 1502747763:0;git checkout exercise3
+: 1502747904:0;npm test exercise3.test.js
+: 1502808123:0;node
+: 1502808376:0;npm test exercise3.test.js
+: 1502811519:0;node
+: 1502812274:0;npm test exercise3.test.js
+: 1502813231:0;node\\
+a = [1, 2, 3]
+: 1502813242:0;node\
+a = [1, 2, 3]
+: 1502813378:0;npm test exercise3.test.js
+: 1502813472:0;git add .
+: 1502813492:0;git commit -m "Refactor tests to include empty array & array of arrays"
+: 1502813528:0;git rebase -i eb9f85bbecffef0672a1b7bd2910dd9d87da9630
+: 1502813591:0;git push -f
+: 1502813745:0;git checkout exercise2
+: 1502813811:0;git pull master
+: 1502813817:0;git pull origin/master
+: 1502813837:0;git checkout master
+: 1502813841:0;git pull origin/master
+: 1502813908:0;git pull
+: 1502813960:0;git rebase -i eb9f85bbecffef0672a1b7bd2910dd9d87da9630
+: 1502813984:0;git checkout exercise2
+: 1502813987:0;git rebase -i eb9f85bbecffef0672a1b7bd2910dd9d87da9630
+: 1502814073:0;git merge master
+: 1502814102:0;git checkout master
+: 1502814107:0;git merge exercise2
+: 1502814112:0;git status
+: 1502814121:0;git log
+: 1502814149:0;git push 
+: 1502814183:0;git push -f
+: 1502814220:0;git rebase -i eb9f85bbecffef0672a1b7bd2910dd9d87da9630
+: 1502814321:0;git push
+: 1502814338:0;git pull
+: 1502814350:0;git push
+: 1502814606:0;git checkout exercise2
+: 1502814615:0;git push
+: 1502814625:0;git rebase -i eb9f85bbecffef0672a1b7bd2910dd9d87da9630
+: 1502814716:0;git push
+: 1502814719:0;git push -f
+: 1502814925:0;git pull
+: 1502815017:0;git-reflog
+: 1502815021:0;git -reflog
+: 1502815038:0;git reflog
+: 1502815058:0;git reset --hard 4ffc0fa 
+: 1502815212:0;git status
+: 1502815223:0;git log
+: 1502815251:0;git reflog
+: 1502815266:0;git reset --hard f88f5d7
+: 1502815271:0;git log
+: 1502815313:0;git checkout master
+: 1502815325:0;git pull
+: 1502815349:0;git log
+: 1502815519:0;git push
+: 1502815525:0;git push -f
+: 1502815548:0;git log
+: 1502816033:0;git pull
+: 1502816065:0;git log
+: 1502816141:0;git checkout exercise1
+: 1502816160:0;git checkout exercise2
+: 1502816277:0;git log
+: 1502816297:0;git checkout master
+: 1502816305:0;git log
+: 1502816695:0;git checkout exercise2
+: 1502816698:0;git log
+: 1502818958:0;git rebase -i eb9f85bbecffef0672a1b7bd2910dd9d87da9630
+: 1502819061:0;git log
+: 1502819136:0;git checkout exercise3
+: 1502819154:0;rm test/exercise3.test.js
+: 1502819157:0;git checkout exercise3
+: 1502819162:0;git log
+: 1502819252:0;git checkout exercise1
+: 1502819256:0;git log
+: 1502819268:0;git checkout exercise4
+: 1502819271:0;git log
+: 1502819278:0;git checkout exercise5
+: 1502819280:0;git log
+: 1502819292:0;git checkout exercise2
+: 1502819300:0;git pull
+: 1502819311:0;git log
+: 1502819333:0;git rebase -i eb9f85bbecffef0672a1b7bd2910dd9d87da9630
+: 1502819361:0;git log
+: 1502819427:0;git rebase -i eb9f85bbecffef0672a1b7bd2910dd9d87da9630
+: 1502819457:0;git rebase --abort
+: 1502819466:0;git rebase -i eb9f85bbecffef0672a1b7bd2910dd9d87da9630
+: 1502819478:0;git log
+: 1502819547:0;git fetch 
+: 1502819551:0;git log
+: 1502819567:0;git fetch origin/exercise2
+: 1502819575:0;git fetch origin exercise2
+: 1502819579:0;git log
+: 1502819600:0;git pull origin exercise2
+: 1502819606:0;git log
+: 1502819628:0;git rebase -i eb9f85bbecffef0672a1b7bd2910dd9d87da9630
+: 1502819644:0;git log
+: 1502819674:0;git rebase -i eb9f85bbecffef0672a1b7bd2910dd9d87da9630
+: 1502819706:0;git commit --amend
+: 1502819954:0;git reflog
+: 1502822237:0;git log --name-log
+: 1502822241:0;git log --name-only
+: 1502822265:0;git log --name-status
+: 1502822291:0;git show
+: 1502822319:0;git reflog
+: 1502822372:0;git show 09c0f26
+: 1502822410:0;git reflog
+: 1502822487:0;git show 2ffb1c8
+: 1502822503:0;git reset 2ffb1c8
+: 1502822511:0;git log --name-log
+: 1502822519:0;git log
+: 1502822553:0;git add .
+: 1502822560:0;git checkout exercise2
+: 1502822605:0;git branch exercise22 2ffb1c8
+: 1502822614:0;git log
+: 1502822630:0;git checkout exercise22
+: 1502822633:0;git log
+: 1502822715:0;git branch -d exercise2
+: 1502822725:0;git log
+: 1502822764:0;git branch -m exercise2
+: 1502822770:0;git add .
+: 1502822787:0;git commit -m "Add new exercise 2 branch"
+: 1502822804:0;git push -u origin exercise2
+: 1502822823:0;git push -f
+: 1502822834:0;git push -f origin exercise2
+: 1502822878:0;git log
+: 1502822944:0;git checkout master
+: 1502822949:0;git log
+: 1502822989:0;git rebase -i 
+: 1502823002:0;git log
+: 1502823013:0;git rebase -i eb9f85bbecffef0672a1b7bd2910dd9d87da9630
+: 1502823041:0;git rebase -i abort
+: 1502823047:0;git rebase --abort
+: 1502823051:0;git rebase -i eb9f85bbecffef0672a1b7bd2910dd9d87da9630
+: 1502823072:0;git checkout master
+: 1502823079:0;git log
+: 1502823112:0;git reset --hard origin/master
+: 1502823116:0;git log
+: 1502823143:0;git status
+: 1502823239:0;git log
+: 1502823278:0;git checkout exercise2
+: 1502823289:0;git log
+: 1502823350:0;git checkout master
+: 1502823352:0;git log
+: 1502823373:0;git checkout exercise2
+: 1502823375:0;git log
+: 1502823417:0;ls
+: 1502823474:0;git reset 2ffb1c8
+: 1502823482:0;git log
+: 1502823490:0;git add .
+: 1502823508:0;git commit -m "reset 2ffb1c8"
+: 1502823523:0;git log
+: 1502823611:0;glgga
+: 1502823728:0;git status
+: 1502823759:0;git checkout origin/exercise2
+: 1502823820:0;git branch -D exercise2
+: 1502823832:0;git co -b exercise2
+: 1502823840:0;git checkout -b exercise2
+: 1502823846:0;glgga
+: 1502823971:0;git remote origin prune
+: 1502823982:0;git remote prune origin
+: 1502823986:0;glgga
+: 1502824059:0;git remote prune origin
+: 1502824062:0;glgga
+: 1502824177:0;git rebase master
+: 1502824187:0;glgga
+: 1502824225:0;git push origin/exercise2 -f
+: 1502824231:0;git push origin exercise2 -f
+: 1502825057:0;git status
+: 1502825144:0;git commit --amend
+: 1502825856:0;glgga
+: 1502825870:0;git checkout master
+: 1502825873:0;glgga
+: 1502829856:0;git checkout exercise3
+: 1502829866:0;git log
+: 1502829915:0;git checkout -b funExercise3
+: 1502829919:0;git log
+: 1502829946:0;node
+: 1502830092:0;npm test exercise3.test.js
+: 1502832040:0;node
+: 1502832606:0;npm test exercise3.test.js
+: 1502833475:0;git add .
+: 1502833490:0;git commit -m "Initial Commit: Fun Exercise3"
+: 1502833507:0;git push -u origin funExercise3
+: 1502837282:0;npm test exercise3.test.js
+: 1502890376:0;git commit -m "Refactor funExercise3 to one line"
+: 1502890391:0;git add .
+: 1502890395:0;git commit -m "Refactor funExercise3 to one line"
+: 1502890419:0;git push 
+: 1502890626:0;cd ../
+: 1502890632:0;cd dotfiles
+: 1502890707:0;cd ../
+: 1502890709:0;ls -la
+: 1502890978:0;cd dotfiles
+: 1502890980:0;ls
+: 1502890992:0;git add .
+: 1502891007:0;git commit -m "Update dotfiles for transfer to new machine"
+: 1502891013:0;git push -f
+: 1502893321:0;git log
+: 1502893346:0;ls -la
+: 1502893637:0;cd ../
+: 1502893640:0;ls -la
+: 1502893660:0;mv .atom dotfiles
+: 1502893665:0;l
+: 1502893683:0;ls dotfiles
+: 1502893695:0;ls dotfiles/
+: 1502893702:0;mv .atom dotfiles/
+: 1502893719:0;mv .atom dotfiles/atom
+: 1502893807:0;mv .yarnrc dotfiles/yarnrc
+: 1502893811:0;ls dotfiles
+: 1502893853:0;mv .config dotfiles/config
+: 1502893878:0;mv .exercism.json  dotfiles/exercism
+: 1502893902:0;mv .gitconfig  dotfiles/gitconfig
+: 1502893914:0;mv .gitignore  dotfiles/gitignore
+: 1502893983:0;mv .node_repl_history  dotfiles/.node_repl_history
+: 1502894016:0;mv .npm  dotfiles/npm
+: 1502894023:0;ls dotfiles
+: 1502894069:0;mv .oh_my_zsh  dotfiles/oh_my_zsh
+: 1502894092:0;mv .oh-my-zsh  dotfiles/oh-my-zsh
+: 1502894134:0;mv .viminfo  dotfiles/viminfo
+: 1502894177:0;mv .zsh-update  dotfiles/zsh-update
+: 1502894193:0;mv .zsh_history dotfiles/zsh_history
