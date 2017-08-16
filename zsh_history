@@ -397,3 +397,44 @@ a = [1, 2, 3]
 : 1502894134:0;mv .viminfo  dotfiles/viminfo
 : 1502894177:0;mv .zsh-update  dotfiles/zsh-update
 : 1502894193:0;mv .zsh_history dotfiles/zsh_history
+: 1502895355:0;cd ../
+: 1502895359:0;cd arianna*
+: 1502895367:0;yarn test
+: 1502895376:0;jest
+: 1502895390:0;npm install --save-dev jest\
+
+: 1502895408:0;yarn test
+: 1502895793:0;ls
+: 1502895848:0;atom
+: 1502895853:0;atom src
+: 1502895860:0;atom arianna-node*
+: 1502895864:0;cd ../
+: 1502895868:0;atom arianna-node*
+: 1502896052:0;ls -la
+: 1502896273:0;cd arianna-node*
+: 1502896279:0;yarn
+: 1502896561:0;cd ../
+: 1502896563:0;cd dotfiles
+: 1502896566:0;ls -la
+: 1502896579:0;rm config
+: 1502896584:0;rm -rf config
+: 1502896591:0;ls -la
+: 1502896610:0;rm -rf npm
+: 1502896614:0;ls -la
+: 1502896624:0;ls .atom
+: 1502896643:0;cd .atom
+: 1502896648:0;cat config.cson
+: 1502896714:0;cd exercism
+: 1502896719:0;cd ../
+: 1502896731:0;cd dotfiles/exercism
+: 1502896735:0;cd dotfiles
+: 1502896738:0;ls -la
+: 1502896746:0;rm exercism
+: 1502896763:0;rm node_repl_history
+: 1502896767:0;la -la
+: 1502896827:0;rm oh-*
+: 1502896832:0;rm -rf oh-*
+: 1502896836:0;la -la
+: 1502896873:0;git commit -m 'Delete unneccesary dotfiles"\
+
+: 1502896876:0;git add .
