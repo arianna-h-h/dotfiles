@@ -438,3 +438,11 @@ a = [1, 2, 3]
 : 1502896873:0;git commit -m 'Delete unneccesary dotfiles"\
 
 : 1502896876:0;git add .
+: 1502896882:0;git commit -m 'Delete unneccesary dotfiles"\
+
+: 1502896885:0;git commit -m 'Delete unneccesary dotfiles'\
+
+: 1502896890:0;git push
+: 1502898352:0;ls
+: 1502898374:0;atom makesymlinks.sh
+: 1502898413:0;git add .
