@@ -10,7 +10,8 @@ dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
 
 ## change this to include your custom files and directories
-files="ssh"    # list of files/folders to symlink in homedir
+files="ssh", "oh-my-zsh", "atom", "yarnrc", "npm", "zshrc",
+"zsh-update", "zsh_history"   # list of files/folders to symlink in homedir
 
 ##########
 
